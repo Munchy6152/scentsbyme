@@ -74,7 +74,7 @@
     cursor: pointer; 
 }
 .nav-link:hover{
-    color: rgb(236, 173, 117);
+    color: rgb(218, 231, 243);
 }
 /*navbar*/
 
@@ -99,7 +99,7 @@
 }
 
 #btn1 button:hover{
-    background-color: peachpuff;
+    background-color: rgb(218, 231, 243);
 }
 
 @media screen and (max-width: 420px){
@@ -140,3 +140,24 @@
 }
 
 /*card2*/
+
+/*card3*/
+
+#c {
+    font-weight: bold;
+}
+
+#btn3 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn3 button:hover{
+    background-color: rgba(238, 224, 208, alpha);
+}
+
+
+/*card3*/
