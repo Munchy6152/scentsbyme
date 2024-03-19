@@ -20,7 +20,7 @@
 }
 
 .social-link i img:hover{
-    background-color: rgba(238, 224, 208);
+    background-color: rgb(218, 231, 243);
     border-radius: 50px;
 }
 
@@ -146,6 +146,9 @@
 #c {
     font-weight: bold;
 }
+#btn3{
+    text-align: center;
+}
 
 #btn3 button{
     width: 150px;
@@ -159,5 +162,61 @@
     background-color: rgba(238, 224, 208, alpha);
 }
 
+@media screen and (max-width:895px){
+    #btn button{
+        width: 100px;
+    }
+}
 
 /*card3*/
+
+#btn4 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn4 button:hover{
+    background-color: rgba(238, 224, 208, alpha);
+}
+
+
+#footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
+
+#footer{
+    color: white;
+    padding-top: 30px;
+}
+
+#footer h1{
+    color: white;
+    padding-top: 30px;
+}
+
+
+#footer p{
+    color: white;
+}
+
+.icons i{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.copyright{
+    color: white;
+    margin-top: 20px;
+
+}
+
+.credite{
+    color: white;
+}
